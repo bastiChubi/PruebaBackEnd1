@@ -21,5 +21,5 @@ class Consola(Tecnologia):
         return f"Nombre Consola: {self.__nombreConsola}, Version: {self.__version}, {super().__str__()}"
 
     def calcularDescuento(self):
-        return super().calcularDescuento()
+        return super().calcularDescuento() 
     
